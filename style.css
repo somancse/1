@@ -829,3 +829,21 @@ footer span a:hover{
         font-size:12px;
     }
 }
+@media(max-width:394px){
+    #personal_info_table td {
+        font-size: 14px;width:50%;
+        padding: 2px 0px;
+    }
+}
+
+@media(max-width:394px){
+    #personal_info_table td {
+        font-size: 11px;
+        width:50%;
+        padding: 2px 0px;
+    }
+    .btn1 {
+        padding: 4px 8px;
+        
+    }
+}
