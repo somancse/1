@@ -634,7 +634,47 @@ footer span a:hover{
         width: 350px;
     }
 }
+@media(max-width:384px){
+    .skills .skills-content .left a {
+       
+        padding: 2px 6px;
+        margin-top: 7px;
+        
+    }
+    .services .serv-content .card {
+        
+        padding: 20px 8px;
+        
+    }
+    .online_skill span {
+        margin-right: 4px;
+        font-size: 14px;
+        color: #222;
+    }
+}
+@media(max-width:947px){
+    .skills .skills-content .left a {
+        padding: 9px 14px;
+        margin-top: 14px;
+    }
+    .online_skill span {
+        margin-right: 4px;
+        font-size: 24px;
+        color: #222;
+    }
+}
 
+@media(max-width:454px){
+    .skills .skills-content .left a {
+        padding: 9px 6px;
+        margin-top: 5px;
+    }
+    .online_skill span {
+        margin-right: 4px;
+        font-size: 16px;
+        color: #222;
+    }
+}
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
